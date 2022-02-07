@@ -3,6 +3,7 @@
 use App\Http\Controllers\BfdController;
 use App\Http\Controllers\GitoutController;
 use App\Http\Controllers\GoController;
+use App\Http\Controllers\MmController;
 use App\Http\Controllers\NextController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\RawController;
@@ -178,5 +179,6 @@ Route::resource('next',NextController::class);
 Route::resource('gitout',GitoutController::class);
 Route::resource('bfd',BfdController:: class);
 Route::resource('raw',RawController::class);
+Route::resource('mm',MmController::class);
 
 Route::get('/{page}', 'AdminController@index');

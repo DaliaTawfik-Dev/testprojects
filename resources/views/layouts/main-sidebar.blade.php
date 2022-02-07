@@ -87,6 +87,8 @@
                     <li><a class="slide-item" href="{{ route ('gitout.index') }}">gotouts</a></li>
                     <li><a class="slide-item" href="{{ route ('bfd.index') }}">bfds</a></li>
                     <li><a class="slide-item" href="{{ route ('raw.index') }}">raws</a></li>
+                    <li><a class="slide-item" href="{{ route ('mm.index') }}">mm
+                    </a></li>
                 </ul>
             </li>
             <li class="side-item side-item-category">WEB APPS</li>
